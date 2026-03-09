@@ -6,6 +6,6 @@ const increaseCounter = () => counter.value++;
 <template>
   <div class="flex flex-col gap-2 w-fit">
     <span><strong>Counter:</strong> {{ counter }}</span>
-    <button type="button" @click="increaseCounter">Click me~!</button>
+    <Button type="button" @click="increaseCounter">Click me~!</Button>
   </div>
 </template>
