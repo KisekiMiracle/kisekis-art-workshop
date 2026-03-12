@@ -1,5 +1,14 @@
+<script setup lang="ts">
+import type { User } from "~/types/user";
+
+const user = useState<User>("user");
+if (user) {
+  await navigateTo("/workshop");
+}
+</script>
+
 <template>
-  <div>
+  <main>
     <slot />
-  </div>
+  </main>
 </template>

@@ -66,7 +66,7 @@ async function handleSubmit(event: SubmitEvent) {
       method: "POST",
       body: result.data,
     });
-    await navigateTo("/play");
+    await navigateTo("/workshop");
   } catch (err) {
     // Nuxt's $fetch throws an FetchError with a `data` property
     if (err instanceof Error) {

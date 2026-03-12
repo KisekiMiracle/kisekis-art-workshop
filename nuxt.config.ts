@@ -27,6 +27,10 @@ export default defineNuxtConfig({
      */
     componentDir: "./app/components/ui",
   },
+  icon: {
+    mode: "css",
+    cssLayer: "base",
+  },
   nitro: {
     preset: "Bun",
   },
